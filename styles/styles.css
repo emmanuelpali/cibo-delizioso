@@ -20,4 +20,16 @@ body {
   margin: 0;
 }
 
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+body {
+  background-color: #faf8da;
+}
+
+p {
+  text-align: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
