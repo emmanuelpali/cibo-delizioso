@@ -1,0 +1,51 @@
+// Body
+@use 'variables' as *;
+ 
+h1, h2, h3, h4 {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+body {
+    background-color: $bgColorBody;
+    font-family: 'Libre Baskerville', serif; 
+}
+
+.banner-img {
+    background-image: url("../images/banner-cibo.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ main button {
+    background-color: $buttonColor;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    padding: 12px 10px;
+    display: inline-block;
+    margin: 0 auto; // for button in center
+    display: flex;  // for button in center
+    justify-content: center;  // for button in center
+    
+   
+}
+
+ button a {
+     text-decoration: none;
+     color: $buttonTextColor;
+      
+    
+ }
+ button:hover {
+    background-color: #174e1a; 
+   
+ }
+ 

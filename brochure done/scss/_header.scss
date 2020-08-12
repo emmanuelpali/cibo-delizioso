@@ -1,0 +1,65 @@
+// Header
+
+@use 'variables' as *;
+
+header {
+    background-color: $headerColor;
+    width: 100%;
+}
+
+.inner-header {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:0 auto
+    
+}
+
+header a {
+    text-decoration: none;
+    color: $h1Color;
+    
+}
+header h1 {
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 60px;
+    margin-left: 10px;
+    
+}
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header nav {
+    display: block;
+
+
+}
+header nav a {
+    line-height: 40px;
+    margin: 0;
+}
+
+
+
+@media  (min-width:1200px) {
+
+.main-nav {
+    display: block;
+    width: auto;      
+ }
+.hamburger-icon {
+    display: none;
+}
+
+nav a {
+    border-top: none;
+}
+nav ul {
+    display: flex;
+}
+
+} 

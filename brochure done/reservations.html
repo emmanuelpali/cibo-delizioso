@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96"/>
+</head>
+<body>
+    <header>
+        <div class="inner-header"> 
+            <h1><a href="index.html">CIBO DELIZIOSO</a></h1>
+        <a href="#menu" class="nav-button">
+            <span class="hamburger-icon">&#9776;</span>
+            <span class="sr-only">Menu</span>
+        </a>
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li><a href="menu.html">Our Menu</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="#0">Our Story</a></li>
+                    <li><a href="#0">Contact</a></li>
+                </ul>
+            </nav>
+        </div> <!----End of Inner Header---->
+ </header>
+        <main>
+            <div class="reservation-form">
+                <!--I am including the image below only to be displayed on larger screens to take up space. it can be taken out if ity isn't vissaully pleasing-->
+                <div class = "reserve-img">
+
+                </div>
+                <h2>RESERVATIONS</h2>
+            <form action="/" class="basic-form" method="post">
+                <div class="info-form-row">
+                    <div class="name-form">
+                        <label for="name">Name</label>
+                        <input type="text" id="Name" placeholder="Name" required>
+                    </div><!---end of name---> 
+                    <div class="email-form-row">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div><!---end of email--->
+                    <div class="phone-form-row">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="number" id="phone-number" placeholder="Phone Number">
+                    </div><!--end of phone-->
+                    <div class="number-form-row">
+                        <label for="number-of-guests">Number of Guests</label>
+                        <input type="number" id="number-of-gueste" placeholder="Number of Guests">
+                    </div><!---end of number-->
+                    <div class="date-form-row">
+                        <label for="date">Date</label>
+                        <input type="datetime" id="date" placeholder="Date and Time" required>
+                    </div> <!---end of date-->
+                    <div class="submit-btn">
+                    <input type="submit" value="submit">
+                    </div>
+                    <!--for the mobile view, we can hide the labels to make the form more readable-->
+                </form>
+            </div>
+        </main>
+        
+    </div>
+    <footer>
+        <div class="hours-of-operation">
+            
+                <h3>HOURS OF OPERATION</h3>
+               <P>Monday - Friday 11:30AM-11PM
+                <br>
+                Saturday - Sunday 3PM-10PM
+              </P> 
+        </div>
+        <div class="social-media">
+            <h3>FOLLOW US</h3>
+            
+           <a href="#0"><img src="images/facebook-black.png" alt="Facebook Icon"></a>
+           <a href="#0"><img src="images/insta-icon-white.png" alt="Instagram Icon"></a>
+            
+        </div>
+        <div class="contact">
+            <h3>CONTACT</h3>
+
+            <p>(604)-123-4567</p>  
+        </div> 
+        <div class="location">
+            <h3>LOCATION</h3>
+
+            <p>123 Italy Drive</p>
+        </div> 
+    </footer>
+</body>
+<script src="scripts/script.js"></script>
+</html>

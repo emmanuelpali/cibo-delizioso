@@ -1,0 +1,36 @@
+// Footer
+
+@use 'variables' as *;
+
+footer {
+    background-color: $headerColor ;
+   display: block;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px 10px;
+    
+  
+   
+}
+footer ul {
+    list-style: none;
+}
+footer p, li, h3 {
+    color: $h1Color;
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+footer li, h3 {
+    font-family: $footerP;
+    font-family: 'Libre Baskerville', serif;;
+}
+.social-media {
+    
+    text-align: center;
+}
+footer img {
+    width: 30px;
+   
+}
