@@ -1,3 +1,140 @@
 // Nav
 
 @use 'variables' as *;
+
+/* Nav styles */
+/* Screen Reader */
+
+header nav {
+    display: block;
+  }
+  
+  header nav a {
+    line-height: 40px;
+    margin: 0;
+  }
+  
+  .main-nav {
+    display: flex;
+    width: 100%;
+    background-color: none;
+    display: none;
+  }
+  
+  .show nav {
+    display: block;
+  }
+  
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
+  .nav-button {
+    line-height: 2em;
+    display: block;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 2em;
+    margin-right: 10px;
+    position: relative;
+    top: -1px;
+    cursor: pointer;
+  }
+  
+  nav a {
+    display: block;
+    padding: 0 10px;
+    line-height: 45px;
+    border-top: solid 0.6px white;
+  }
+  
+  nav a:hover,
+  nav a:focus,
+  nav a:active {
+    background-color: #c0b688;
+  }
+
+/*desktop*/
+@media  (min-width: 700px) {
+.main-nav {
+  display: block;
+  width: 60vw;
+  background-color: black;
+  padding-top: 10px;
+  padding-right: 5px;
+
+   ul {
+     display: flex;
+     justify-content: space-evenly;
+   }
+   li {
+     display: block;
+   }
+}
+
+.show nav {
+  display: block;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.nav-button {
+  line-height: 2em;
+  display: block;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 2em;
+  margin-right: 10px;
+  position: relative;
+  top: -1px;
+  cursor: pointer;
+}
+
+nav a {
+  display: flex;
+  padding: 0 10px;
+  line-height: 45px;
+  border-top: solid 0.6px white;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+  background-color: #c0b688;
+}
+
+
+  /* Tablet*/
+
+@media (min-width: 700px) {
+
+    nav {
+        display: block;
+        width: auto;
+    }
+    
+    nav ul {
+        display: flex;
+    }
+    
+    nav a {
+        border-top: none;
+    } } }

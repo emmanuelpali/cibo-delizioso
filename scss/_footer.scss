@@ -1,3 +1,66 @@
 // Footer
 
 @use 'variables' as *;
+
+
+footer {
+    background-color: $headerColor ;
+    background-color: black;
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  footer p, h3 {
+    color: $h1Color;
+    color: white;
+    align-items: center;
+    list-style: none;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  footer li, h3 {
+    color: $h1Color;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  .social-media {
+    text-align: center;
+  }
+  
+  footer img {
+    width: 30px;
+  } 
+
+  /*desktop*/
+  @media (min-width:1200px) {
+    footer {
+        background-color: black;
+        display: flex;
+        margin: 0;
+        padding-left: 16%;
+      }
+      
+      
+      .hours-of-operation {
+        padding-right: 15%;
+      }
+      
+      .location {
+        padding-right: 15%;
+      }
+      
+      .contact{
+        padding-right: 15% ;
+      }
+      
+      .social-media {
+        padding-right: 12%;
+      } }

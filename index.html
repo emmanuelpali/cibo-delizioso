@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177287130-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-177287130-1');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cibo Delizioso</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96"/>
 </head>
 <body>
-    <div class="wrapper index-page-wrapper">
-        <!--the div called 'display-relative' is created so that it, along with the banner image can be displayed relative. the header would be displayed absolute to have it (Header) sit over the banner-->
-        <div class="display-relative">
-            <div class="banner-img">
-                <img src="images/banner-cibo.jpg" alt="Restaurant Dining area">
-            </div>
-            <header>
+    
+    <header>
+            <div class="inner-header"> 
                 <h1><a href="index.html">CIBO DELIZIOSO</a></h1>
-                <button class="nav-button" id="nav-button"><span class="hamburger-icon">&#9776;</span><span class="sr-only">Menu</span></button>
+            <a href="#menu" class="nav-button">
+                <span class="hamburger-icon">&#9776;</span>
+                <span class="sr-only">Menu</span>
+            </a>
 	            <nav class="main-nav" id="main-nav">
                     <ul>
-                        <l1><a href="menu.html">Our Menu</a></l1>
-                        <l1><a href="reservations.html">Reservations</a></l1>
-                        <l1><a href="#0">Our Story</a></l1>
-                        <l1><a href="#0">Contact</a></l1>
+                        <li><a href="menu.html">Our Menu</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                        <li><a href="#0">Our Story</a></li>
+                        <li><a href="#0">Contact</a></li>
                     </ul>
                 </nav>
-            </header>
-        </div>
+            </div> <!----End of Inner Header---->
+     </header>
+            <Main>
+            <div class="banner-img">
 
-        <Main>
+        
+            </div>
+            <div class = wrapper >
+
             <section class="welcome-note">
                 <h2>WELCOME TO CIBO DELIZIOSO</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste explicabo sapiente quisquam nemo obcaecati nihil nesciunt impedit consectetur officiis ad necessitatibus accusamus repellendus provident facere molestiae, similique dignissimos doloremque molestias tenetur perspiciatis, accusantium mollitia eveniet. </p>
@@ -45,35 +61,35 @@
                 </div>
             </section>
         </Main>
-
+    </div> <!----End Wrapper ---->
         <footer>
             <div class="hours-of-operation">
-                <ul>
-                    <li><h3>HOURS OF OPERATION</h3></li>
-                    <li>Moday - Friday 11:30AM-11PM</li>
-                    <li>Saturday - Sunday 3PM-10PM</li>
-                </ul>
+                
+                    <h3>HOURS OF OPERATION</h3>
+                   <P>Monday - Friday 11:30AM-11PM
+                    <br>
+                    Saturday - Sunday 3PM-10PM
+                  </P> 
             </div>
             <div class="social-media">
-                <h3>FOLLOW US ON SOCIAL MEDIA</h3>
+                <h3>FOLLOW US</h3>
+                
                <a href="#0"><img src="images/facebook-black.png" alt="Facebook Icon"></a>
-               <a href="#0"><img src="images/IG.png" alt="Instagram Icon"></a>
+               <a href="#0"><img src="images/insta-icon-white.png" alt="Instagram Icon"></a>
+                
             </div>
+            <div class="contact">
+                <h3>CONTACT</h3>
+
+                <p>(604)-123-4567</p>  
+            </div> 
             <div class="location">
                 <h3>LOCATION</h3>
-                <p>
-                    Viale Europa 77
-                     <br> 
-                     00155 Bercalona BA 
-                     <br> 
-                     Italy 
-                     <br>
-                     <strong>Contact</strong> 
-                     <br>
-                     0898426166 
-                </p>
-            </div>
+
+                <p>123 Italy Drive</p>
+            </div> 
         </footer>
     </div>
 </body>
+<script src="scripts/script.js"></script>
 </html>
