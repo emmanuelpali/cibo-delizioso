@@ -1,5 +1,10 @@
 // Body
 @use 'variables' as *;
+
+*, *::before, *::after {
+  box-sizing: border-box; 
+}
+
  
 h1, h2, h3, h4 {
     text-align: center;
@@ -9,6 +14,8 @@ h1, h2, h3, h4 {
  body {
     background-color: $bgColorBody;
     background-color: #ffffff;
+    padding: 5px;
+    margin: 0 auto;
   }
   
   .banner-img {
