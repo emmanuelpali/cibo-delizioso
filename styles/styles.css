@@ -458,12 +458,12 @@ input[type=submit]:hover {
   }
 }
 footer {
-  
+  background-color: black;
   background-color: black;
   display: block;
   text-align: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 0;
   padding: 20px 10px;
 }
 
@@ -485,6 +485,10 @@ footer li, h3 {
   font-family: "Libre Baskerville", serif;
 }
 
+.social-media {
+  text-align: center;
+}
+
 footer img {
   width: 30px;
 }
@@ -498,8 +502,6 @@ footer img {
     padding: 10px;
     margin: 0 auto;
   }
-
-  
 }
 
 /*# sourceMappingURL=styles.css.map */
