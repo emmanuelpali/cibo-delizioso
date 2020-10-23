@@ -16,6 +16,7 @@ h1, h2, h3, h4 {
     background-color: #ffffff;
     padding: 5px;
     margin: 0 auto;
+  
   }
   
   .banner-img {
@@ -52,6 +53,13 @@ h1, h2, h3, h4 {
   
   button:hover {
     background-color: #c0b688;
+  }
+  .section-holder {
+    text-align: center;
+    align-items: center;
+  }
+  section .menu-item {
+    text-align: center;
   }
  
   /*// Desktop View */

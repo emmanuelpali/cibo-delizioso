@@ -99,6 +99,15 @@ button:hover {
   background-color: #c0b688;
 }
 
+.section-holder {
+  text-align: center;
+  align-items: center;
+}
+
+section .menu-item {
+  text-align: center;
+}
+
 /*// Desktop View */
 @media (min-width: 1200px) {
   .body {
@@ -449,12 +458,12 @@ input[type=submit]:hover {
   }
 }
 footer {
-  background-color: black;
+  
   background-color: black;
   display: block;
   text-align: center;
   align-items: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 20px 10px;
 }
 
@@ -476,10 +485,6 @@ footer li, h3 {
   font-family: "Libre Baskerville", serif;
 }
 
-.social-media {
-  text-align: center;
-}
-
 footer img {
   width: 30px;
 }
@@ -489,25 +494,12 @@ footer img {
   footer {
     background-color: black;
     display: flex;
-    margin: 0;
-    padding-left: 16%;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 auto;
   }
 
-  .hours-of-operation {
-    padding-right: 15%;
-  }
-
-  .location {
-    padding-right: 15%;
-  }
-
-  .contact {
-    padding-right: 15%;
-  }
-
-  .social-media {
-    padding-right: 12%;
-  }
+  
 }
 
 /*# sourceMappingURL=styles.css.map */
